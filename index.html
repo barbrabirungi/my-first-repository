@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS basics</title>
+    <link rel="stylesheet" href="./stars.css">
+  </head>
+  <body>
+    <p>
+        <h1>What is CSS?
+        </h1> 
+        Like HTML, CSS is <strong>not a programming language.</strong> 
+        It's <strong>not a markup language either.</strong> CSS is a style sheet language. 
+        CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text, setting the color to red:
+        <br>
+        <h2 class="underline">Anatomy of a CSS ruleset
+        </h2>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" 
+        alt="CSS code for red paragraph" 
+        width = "300">
+        
+        <h3>Selector</h3>
+        This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled.
+        <br>
+        <br>
+        To style a different element, <em>change the selector.</em> 
+        
+        <h3>Declaration</h3>
+        This is a single rule like color: red;. 
+        <br>
+        It specifies which of the element's properties you want to style.
+        
+        <h3>Properties</h3>
+        These are ways in which you can style an HTML element. (In this example, color is a property of the <p> elements.) In CSS, you choose which properties you want to affect in the rule.
+        
+        <h3>Property value</h3>
+        To the right of the property—after the colon—there is the property value. 
+        <br>
+        This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)
+        
+        <h4 id="first-note">Note the other important parts of the syntax:</h4>
+        
+        <ol>
+          <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({})</li>
+
+          <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+            
+          <li>Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>  
+            
+          <li>To modify multiple property values in one ruleset, write them separated by semicolons, like this:</li>
+        </ol>
+
+        <h4 id="summary">Summary for this course</h4>
+        <ul>
+          <li>CSS first steps</li>
+          <li>CSS building blocks</li>
+          <li>Styling text</li>
+          <li>CSS layout</li>
+        </ul>
+    </p>
+    
+    <p>
+      <span id="end-note">
+        PS: This lesson is based on;
+        <a 
+        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" 
+        target="_blank" 
+        >
+        CSS basics
+        </a> 
+      </span> 
+    <br>  
+    Follow the link above to learn more
+    </p>
+  </body>
+</html>
